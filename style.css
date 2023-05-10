@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+label.logo{
+    color:black;
+    font-size:  35px;
+    line-height: 80px; 
+    font-weight: bold;
+    padding: 0 5%; 
+}
+nav{
+    height: 70px;
+    width: -70px;
+    display: flex;
+}
+
+nav ul{
+    margin: 0 10%; 
+    padding-left: 5px;
+}
+nav ul li{
+    line-height: 80px;
+    display: inline-block;
+    margin: 5px;
+
+}
+nav ul li a{
+    color: gray;
+}
+hr{
+    margin: 0 60px;
+}
+.container{
+    display: flex;
+    margin-left: 10px;
+}
+.box{
+    padding:  50px 0 10px 100px;
+    height: 50%;
+    width: 50%;
+    margin: 10px 0;
+}
+.box img{
+    width: 270px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+.box2 img{
+    width: 50px;
+    height: 50px;
+    padding: 80 50px;
+    margin: 10 10px;
+    border-radius: 10px; 
+}
+.head{
+    height: 50%;
+    width: 50%;
+    padding: 50px;
+    margin: 20px;
+    display: inline-block;
+}
+.head h2{
+    color: chocolate;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: small;
+    padding: 10px;
+}
+.head h3{
+    padding: 10px;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+.head h5{
+    padding:10px;
+    color: grey;
+    
+}
+span{
+    background-color: rgb(247, 225, 240);
+    color: orange;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 14px;
+    
+}
+.number p{
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+.num p{
+    color: grey;
+    font-size: x-small;
+    padding: 10px;
+}
